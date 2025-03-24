@@ -925,8 +925,6 @@ section:hover {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
-
-/* تصميم قسم الطلاب المتميزين */
 #top-students {
     background-color: #f8f9fa;
     padding: 80px 0;
@@ -976,7 +974,7 @@ section:hover {
     display: flex;
     align-items: center;
     gap: 20px;
-    flex: 1 1 calc(33.333% - 40px); /* 3 أسماء بجانب بعضهم */
+    flex: 1 1 calc(33.333% - 40px);
     position: relative;
     overflow: hidden;
 }
@@ -1021,7 +1019,6 @@ section:hover {
     margin-bottom: 0;
 }
 
-/* تأثيرات إضافية للتميز */
 .student-card::after {
     content: 'متميز';
     position: absolute;
@@ -1040,16 +1037,15 @@ section:hover {
     background-color: #218838;
 }
 
-/* تصميم متجاوب */
 @media (max-width: 992px) {
     .student-card {
-        flex: 1 1 calc(50% - 20px); /* 2 أسماء بجانب بعضهم */
+        flex: 1 1 calc(50% - 20px);
     }
 }
 
 @media (max-width: 576px) {
     .student-card {
-        flex: 1 1 100%; /* اسم واحد في كل صف */
+        flex: 1 1 100%;
     }
 
     #top-students h2 {
